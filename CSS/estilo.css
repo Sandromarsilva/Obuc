@@ -1,0 +1,132 @@
+/* Estrutura do site
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+    background: #fff;
+    top: 3em;
+    right: 0;
+    left: 0;
+    height: 3em;
+
+}
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    background:url(../imagens/header.png) no-repeat ;
+    position: absolute;
+    top: 0;
+    right: 136em;
+    left: 0;
+    height: 80em;
+}
+
+.lateral-esquerda {
+    text-align: left;
+    position: relative;
+    color:whitesmoke;
+    top: 10em;
+    height: 10em;
+    left: 0em;
+
+}
+
+
+.home{
+
+    position: relative;
+    top: 5em;
+    left: 80em;
+}
+
+.menu {
+    background-color: #4285ba;
+    text-align: left;
+    position: absolute;
+    color: whitesmoke;
+    bottom: 3em;
+    top:201px;
+    right: 0;
+    left: 0;
+
+}
+
+table tr,td {
+border: 1px solid transparent;
+background: rgba(10, 10, 69, 0.95);
+
+}
+
+table {
+   width: 200px;
+
+}
+
+td {
+    height: 20px;
+
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 10;
+    margin-left: -110px;
+    right: -210px;
+    bottom: 3em;
+}
+
+.user {
+ position: relative;
+ top: 5em;
+ left: 83em;
+
+}
+
+.p1 {
+    text-align: left;
+    position: relative;
+    color:whitesmoke;
+    top: 0em;
+    height: 10em;
+    left: 85em;
+
+}
+
+.p2 {
+    text-align: left;
+    position: relative;
+    color:whitesmoke;
+    top: 0em;
+    height: 10em;
+    left: 85em;
+
+}
+
+.locais {
+
+  position: relative;
+ color: darkblue;
+ top: -9%;
+ height: 15em;
+ left: 15em;
+
+
+}
+
+.predio{
+
+    padding: 0;
+    left: 15 em;
+    top: auto;
+}
